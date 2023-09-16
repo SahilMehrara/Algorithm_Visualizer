@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tree.css">
+    <title>Tree Traversal</title>
+</head>
+<body>
+    <div class="heading"><h1>Tree Traversal</h1></div>
+    <div class="selbox flex">
+        <select name="select" id="select" placeholder="type">
+            <option value>Select Traversal Type</option>
+            <option value="inorder">In Order</option>
+            <option value="preorder">Pre Order</option>
+            <option value="postorder">Post Order</option>
+        </select>
+        <button class="but">Start</button>
+    </div>
+    <div class="tree">
+        <div class="level flex">
+            <div class="node flex" style="margin: 2px;">1</div>
+        </div>
+        <div class="level flex"> <div class="node flex" style="margin: 64px;">2</div> <div class="node flex" style="margin:64px;">3</div></div>
+        <div class="level flex"> <div class="node flex t" >4</div> <div class="node flex t" >5</div> <div class="node flex t" >6</div> <div class="node flex t" >7</div></div>
+        <div class="level"></div>
+    </div>
+    <div  id="l1"></div>
+    <div  id="l2"></div>
+    <div  id="l3"></div>
+    <div  id="l4"></div>
+    <div  id="l5"></div>
+    <div  id="l6"></div>
+    <div class="output"></div>
+    <script src="tree.js"></script>
+</body>
+</html>
